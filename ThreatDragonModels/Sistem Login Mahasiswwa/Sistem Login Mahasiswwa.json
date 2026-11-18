@@ -55,20 +55,12 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "7b993bc7-4be9-4c35-88b3-79594996dd22",
-                "5922e1dc-6e91-464e-b5c4-686e5efb2e58"
+                "7b993bc7-4be9-4c35-88b3-79594996dd22"
               ],
               "containedElements": [
                 "f49f8388-d250-4072-aaba-74cb19ff2b57",
                 "da50cd3e-0bc8-4d45-a4af-f2a47cc9d677"
               ]
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -406,60 +398,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Respons login \ndan data profil",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "1cab855a-549f-4b85-98b1-2c3d811b7382"
-              ]
-            },
-            "labels": [
-              "Respons login \ndan data profil"
-            ],
-            "id": "5922e1dc-6e91-464e-b5c4-686e5efb2e58",
-            "source": {
-              "cell": "348528bf-8d05-4afc-87fe-3832fb504339",
-              "port": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
-            },
-            "target": {
-              "cell": "f49f8388-d250-4072-aaba-74cb19ff2b57",
-              "port": "2671aa19-d5ff-44ba-adb6-1516983249c9"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 320
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Query akun\ndan profil",
               "description": "",
               "outOfScope": false,
@@ -671,6 +609,66 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respons login \ndan data profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Respons login \ndan data profil"
+            ],
+            "id": "5922e1dc-6e91-464e-b5c4-686e5efb2e58",
+            "source": {
+              "x": 590,
+              "y": 250
+            },
+            "target": {
+              "cell": "348528bf-8d05-4afc-87fe-3832fb504339",
+              "port": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
+            },
+            "vertices": [
+              {
+                "x": 510,
+                "y": 290
+              },
+              {
+                "x": 460,
+                "y": 320
+              },
+              {
+                "x": 400,
+                "y": 280
+              }
+            ]
           }
         ],
         "description": "kelompok7bosq"
