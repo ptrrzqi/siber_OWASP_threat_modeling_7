@@ -32,7 +32,7 @@
         "cells": [
           {
             "position": {
-              "x": 549.9999999999998,
+              "x": 540,
               "y": 124
             },
             "size": {
@@ -41,7 +41,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Trust Boundary: "
+                "text": "Trust Boundary: Sistem Internal Kampus"
               }
             },
             "visible": true,
@@ -50,7 +50,7 @@
             "id": "1cab855a-549f-4b85-98b1-2c3d811b7382",
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Trust Boundary: ",
+              "name": "Trust Boundary: Sistem Internal Kampus",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false,
@@ -62,6 +62,13 @@
                 "f49f8388-d250-4072-aaba-74cb19ff2b57",
                 "da50cd3e-0bc8-4d45-a4af-f2a47cc9d677"
               ]
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -434,6 +441,114 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query akun\ndan profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Query akun\ndan profil"
+            ],
+            "id": "26584a44-2cd9-42ea-a442-07ac06faae14",
+            "source": {
+              "x": 720,
+              "y": 240
+            },
+            "target": {
+              "x": 880,
+              "y": 240
+            },
+            "vertices": [
+              {
+                "x": 810,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "2ff10a07-7c29-4a9d-a69d-3ceb4dffdacf",
+            "source": {
+              "x": 880,
+              "y": 270
+            },
+            "target": {
+              "x": 720,
+              "y": 270
+            },
+            "vertices": [
+              {
+                "x": 800,
+                "y": 310
+              },
+              {
+                "x": 750,
+                "y": 290
+              }
+            ]
+          },
+          {
             "position": {
               "x": 931,
               "y": 219
@@ -555,13 +670,6 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ],
