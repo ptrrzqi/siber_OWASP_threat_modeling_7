@@ -32,6 +32,41 @@
         "cells": [
           {
             "position": {
+              "x": 399.9999999999998,
+              "y": 130.0000000000012
+            },
+            "size": {
+              "width": 550,
+              "height": 250
+            },
+            "attrs": {
+              "label": {
+                "text": "Trust Boundary: "
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "1cab855a-549f-4b85-98b1-2c3d811b7382",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary: ",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
+          },
+          {
+            "position": {
               "x": 190,
               "y": 10
             },
@@ -52,6 +87,123 @@
               "type": "tm.Text",
               "name": "A new blank model template",
               "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 229,
+              "y": 219
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Mahasiswa\n(Browser)"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e5813a35-2bb2-48db-87a9-56c6acb201f8"
+                },
+                {
+                  "group": "right",
+                  "id": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
+                },
+                {
+                  "group": "bottom",
+                  "id": "49c2d1ba-fdde-4476-957a-33d1e6da52fa"
+                },
+                {
+                  "group": "left",
+                  "id": "12a60d1e-6600-4335-9f13-9d1a8a7ccd77"
+                }
+              ]
+            },
+            "id": "348528bf-8d05-4afc-87fe-3832fb504339",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Mahasiswa\n(Browser)",
+              "description": "Browser\n",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
             }
           }
         ],
