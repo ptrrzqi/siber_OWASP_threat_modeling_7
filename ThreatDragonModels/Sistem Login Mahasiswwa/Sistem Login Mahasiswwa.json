@@ -32,7 +32,7 @@
         "cells": [
           {
             "position": {
-              "x": 540,
+              "x": 560,
               "y": 124
             },
             "size": {
@@ -512,7 +512,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Hasil Query \nakun dan profil",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -526,7 +526,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Hasil Query \nakun dan profil"
             ],
             "id": "2ff10a07-7c29-4a9d-a69d-3ceb4dffdacf",
             "source": {
@@ -543,8 +543,8 @@
                 "y": 310
               },
               {
-                "x": 750,
-                "y": 290
+                "x": 760,
+                "y": 310
               }
             ]
           },
