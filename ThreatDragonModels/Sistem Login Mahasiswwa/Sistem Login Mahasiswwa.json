@@ -32,8 +32,8 @@
         "cells": [
           {
             "position": {
-              "x": 560,
-              "y": 124
+              "x": 550,
+              "y": 114
             },
             "size": {
               "width": 510,
@@ -55,7 +55,8 @@
               "isTrustBoundary": true,
               "hasOpenThreats": false,
               "crossingFlows": [
-                "7b993bc7-4be9-4c35-88b3-79594996dd22"
+                "7b993bc7-4be9-4c35-88b3-79594996dd22",
+                "9ff6b2d6-77ee-4c5a-9329-3232e8c24465"
               ],
               "containedElements": [
                 "f49f8388-d250-4072-aaba-74cb19ff2b57",
@@ -89,8 +90,8 @@
           },
           {
             "position": {
-              "x": 229,
-              "y": 219
+              "x": 177.5,
+              "y": 229
             },
             "size": {
               "width": 112.5,
@@ -206,8 +207,8 @@
           },
           {
             "position": {
-              "x": 585,
-              "y": 209
+              "x": 610,
+              "y": 219
             },
             "size": {
               "width": 80,
@@ -218,8 +219,8 @@
                 "text": "Backend API"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -316,67 +317,27 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Kredensial dan\npermintaan profil",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": [
-                "1cab855a-549f-4b85-98b1-2c3d811b7382"
+              "threats": [
+                {
+                  "id": "62266a83-8b8c-442e-8b2e-0a398977d7da",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 1,
+                  "score": ""
+                }
               ]
-            },
-            "labels": [
-              "Kredensial dan\npermintaan profil"
-            ],
-            "id": "7b993bc7-4be9-4c35-88b3-79594996dd22",
-            "source": {
-              "cell": "348528bf-8d05-4afc-87fe-3832fb504339",
-              "port": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
-            },
-            "target": {
-              "cell": "f49f8388-d250-4072-aaba-74cb19ff2b57",
-              "port": "2671aa19-d5ff-44ba-adb6-1516983249c9"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 200
-              }
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -464,7 +425,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Hasil Query \nakun dan profil"
+              "Hasil Query akun dan p"
             ],
             "id": "2ff10a07-7c29-4a9d-a69d-3ceb4dffdacf",
             "source": {
@@ -487,6 +448,152 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Kredensial dan\npermintaan profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "c7e74d66-9e42-44c8-85e1-0498b516e780",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "1cab855a-549f-4b85-98b1-2c3d811b7382"
+              ]
+            },
+            "labels": [
+              "Kredensial dan\npermintaan profil"
+            ],
+            "id": "7b993bc7-4be9-4c35-88b3-79594996dd22",
+            "source": {
+              "cell": "348528bf-8d05-4afc-87fe-3832fb504339",
+              "port": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
+            },
+            "target": {
+              "cell": "f49f8388-d250-4072-aaba-74cb19ff2b57",
+              "port": "2671aa19-d5ff-44ba-adb6-1516983249c9"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 200
+              },
+              {
+                "x": 500,
+                "y": 189
+              },
+              {
+                "x": 530,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Respons login \ndan data profil",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "63cef0e4-d987-4b43-9420-8e8b6e29cbb8",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "trustBoundaryIds": [
+                "1cab855a-549f-4b85-98b1-2c3d811b7382"
+              ]
+            },
+            "labels": [
+              "Respons login \ndan data profil"
+            ],
+            "id": "9ff6b2d6-77ee-4c5a-9329-3232e8c24465",
+            "source": {
+              "cell": "f49f8388-d250-4072-aaba-74cb19ff2b57",
+              "port": "2671aa19-d5ff-44ba-adb6-1516983249c9"
+            },
+            "target": {
+              "cell": "348528bf-8d05-4afc-87fe-3832fb504339",
+              "port": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
+            },
+            "vertices": [
+              {
+                "x": 440,
+                "y": 340
+              }
+            ]
+          },
+          {
             "position": {
               "x": 911,
               "y": 219
@@ -500,11 +607,13 @@
                 "text": "Database Akun\ndan Profil"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -601,74 +710,28 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "126d8b00-092e-43df-b5a0-35175bb1b5ae",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 4,
+                  "score": ""
+                }
+              ]
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Respons login \ndan data profil",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Respons login \ndan data profil"
-            ],
-            "id": "5922e1dc-6e91-464e-b5c4-686e5efb2e58",
-            "source": {
-              "x": 590,
-              "y": 250
-            },
-            "target": {
-              "cell": "348528bf-8d05-4afc-87fe-3832fb504339",
-              "port": "eb34c7ff-e7d3-4f68-ba4c-2ce78b8302e8"
-            },
-            "vertices": [
-              {
-                "x": 510,
-                "y": 290
-              },
-              {
-                "x": 460,
-                "y": 320
-              },
-              {
-                "x": 400,
-                "y": 280
-              }
-            ]
           }
         ],
         "description": "kelompok7bosq"
@@ -676,7 +739,7 @@
     ],
     "diagramTop": 2,
     "reviewer": "Dosen Praktikum",
-    "threatTop": 0
+    "threatTop": 4
   },
   "released_at": "2026-11-18"
 }
