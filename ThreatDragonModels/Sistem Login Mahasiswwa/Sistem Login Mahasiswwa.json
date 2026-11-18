@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.6.2",
   "summary": {
     "title": "Sistem Login Mahasiswwa",
     "owner": "Kelompok Demo",
@@ -24,11 +24,11 @@
     "diagrams": [
       {
         "id": 0,
-        "title": "New STRIDE diagram",
+        "title": "DFD Login dan Profil Mahasiswa",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.3.0",
+        "version": "2.6.2",
         "cells": [
           {
             "position": {
@@ -54,10 +54,11 @@
               "hasOpenThreats": false
             }
           }
-        ]
+        ],
+        "description": "kelompok7bosq"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "Dosen Praktikum",
     "threatTop": 0
   },
